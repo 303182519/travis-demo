@@ -1,0 +1,12 @@
+language: node_js
+
+node_js:
+  - 12
+
+cache: yarn
+
+install:
+  - yarn
+script:
+  - yarn test # 运行测试
+  - yarn build
